@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  @apply bg-gradient-to-br from-black via-zinc-900 to-neutral-900 text-zinc-200;
 }
 
 /* Custom slider styles for dark mode */
