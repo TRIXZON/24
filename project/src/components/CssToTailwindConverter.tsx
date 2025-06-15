@@ -65,6 +65,19 @@ const CssToTailwindConverter: React.FC = () => {
       {/* Background glow */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-3xl blur-3xl"></div>
       
+      {/* Introductory paragraphs for the converter */}
+      <div className="relative z-10 mb-8">
+        <p className="text-base text-slate-200 mb-3">
+          Tailwind CSS is one of the most popular utility-first CSS frameworks used by developers today. If you work with gradients in raw CSS, converting them manually to Tailwind can be tricky. That’s why this tool exists—to help you instantly convert CSS gradients into Tailwind-compatible classes.
+        </p>
+        <p className="text-base text-slate-200 mb-3">
+          Whether you're designing with linear, radial, or conic gradients, this tool makes it simple. Just paste your CSS, and you get production-ready Tailwind code with no setup, no login, and completely free.
+        </p>
+        <p className="text-base text-slate-200 mb-6">
+          Perfect for frontend developers, Tailwind users, and designers who want speed and consistency in their projects. It's ideal for quickly testing styles or generating classes for production apps.
+        </p>
+      </div>
+
       <div className="relative bg-slate-900/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-slate-800/50 p-8 lg:p-10">
         <header className="mb-8">
           <div className="flex items-center space-x-3 mb-4">
