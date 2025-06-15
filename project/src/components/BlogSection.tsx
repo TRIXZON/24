@@ -248,6 +248,21 @@ const BlogSection: React.FC = () => {
           </div>
         </article>
       </div>
+      {/* Tool Info Section: Added at the bottom of the blog */}
+      <div className="mt-12 p-6 bg-slate-900/80 rounded-2xl border border-slate-700/60">
+        <h3 className="text-xl font-bold text-white mb-4 text-center">About the Gradient Converter Tool</h3>
+        <div className="space-y-4 max-w-2xl mx-auto">
+          <p className="text-base text-slate-200">
+            Tailwind CSS is one of the most popular utility-first CSS frameworks used by developers today. If you work with gradients in raw CSS, converting them manually to Tailwind can be tricky. That’s why this tool exists—to help you instantly convert CSS gradients into Tailwind-compatible classes.
+          </p>
+          <p className="text-base text-slate-200">
+            Whether you're designing with linear, radial, or conic gradients, this tool makes it simple. Just paste your CSS, and you get production-ready Tailwind code with no setup, no login, and completely free.
+          </p>
+          <p className="text-base text-slate-200">
+            Perfect for frontend developers, Tailwind users, and designers who want speed and consistency in their projects. It's ideal for quickly testing styles or generating classes for production apps.
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
