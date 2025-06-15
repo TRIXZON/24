@@ -64,7 +64,7 @@ const CssToTailwindConverter: React.FC = () => {
     <section className="relative">
       {/* Background glow */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 rounded-3xl blur-3xl"></div>
-
+      
       <div className="relative bg-slate-900/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-slate-800/50 p-8 lg:p-10">
         <header className="mb-8">
           <div className="flex items-center space-x-3 mb-4">
