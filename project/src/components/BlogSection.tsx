@@ -26,8 +26,7 @@ const BlogSection: React.FC = () => {
             <h3 className="text-xl font-bold text-white">1. What is a CSS Gradient?</h3>
           </header>
           <p className="text-gray-300 mb-4 leading-relaxed">
-            A CSS gradient is a smooth transition between two or more colors that can be applied to backgrounds. 
-            Instead of using an image, you can create visually attractive color transitions directly using CSS like:
+            A CSS gradient is a smooth transition between two or more colors that can be applied to backgrounds. Instead of using an image, you can create visually attractive color transitions directly using CSS like:
           </p>
           <div className="bg-gray-900 rounded-xl p-4 mb-4 border border-gray-700">
             <code className="text-green-400 font-mono text-sm">
@@ -35,7 +34,7 @@ const BlogSection: React.FC = () => {
             </code>
           </div>
           <p className="text-gray-300 leading-relaxed">
-            CSS gradients support linear, radial, and conic types, giving you full control over direction, angle, and color stops.
+            CSS gradients support linear, radial, and conic types, giving you full control over direction, angle, and color stops. Gradients are widely used for buttons, backgrounds, overlays, and even text effects. They help create depth and visual interest in modern web design. You can also animate gradients for dynamic effects, making your UI more engaging.
           </p>
         </article>
 
@@ -59,11 +58,14 @@ const BlogSection: React.FC = () => {
               &lt;div class="bg-gradient-to-r from-emerald-400 to-blue-500"&gt;&lt;/div&gt;
             </code>
           </div>
-          <div className="bg-blue-900/30 border-2 border-blue-500/50 rounded-xl p-4">
+          <div className="bg-blue-900/30 border-2 border-blue-500/50 rounded-xl p-4 mb-4">
             <p className="text-blue-300 font-medium">
               💡 Our tool automates this conversion for you — just paste your CSS, and get the Tailwind class instantly!
             </p>
           </div>
+          <p className="text-gray-300 leading-relaxed">
+            When converting, pay attention to the direction (to right, to left, etc.) and color stops. Tailwind uses a set of predefined color tokens, so you may need to pick the closest match to your original CSS colors. For more complex gradients, you can extend Tailwind’s config or use custom utilities. This approach keeps your codebase consistent and easy to maintain.
+          </p>
         </article>
 
         {/* Section 3: Common Classes */}
@@ -98,7 +100,7 @@ const BlogSection: React.FC = () => {
             </div>
           </div>
           <p className="text-gray-300 mt-4 leading-relaxed">
-            You can mix these to build any gradient combination you want.
+            You can mix these to build any gradient combination you want. For best results, use Tailwind’s color palette for consistency across your project. If you need more control, you can add custom colors or directions in your Tailwind config. Gradients can be combined with opacity, hover, and responsive classes for even more flexibility. Experiment with different combinations to create unique effects that match your brand or design system.
           </p>
         </article>
 
