@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="relative bg-slate-900/50 backdrop-blur-xl border-t border-slate-800/50 py-12">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5"></div>
+    <footer className="relative bg-neutral-900/70 backdrop-blur-xl border-t border-zinc-800/50 py-12">
+      <div className="absolute inset-0 bg-gradient-to-r from-zinc-800/10 via-zinc-900/10 to-neutral-900/10"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand Section */}
