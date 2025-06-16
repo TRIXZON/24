@@ -6,7 +6,6 @@ import BlogPage from './pages/BlogPage.tsx';
 import AboutPage from './pages/AboutPage.tsx';
 import ContactPage from './pages/ContactPage.tsx';
 import GradientLabPage from './pages/GradientLabPage.tsx';
-import NotFoundPage from './pages/NotFoundPage';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -18,7 +17,6 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/gradient-lab" element={<GradientLabPage />} />
-        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
   </StrictMode>
